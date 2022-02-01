@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 560px;
+    background: #D7D5FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.lorem h2 {
+    font-family: Merriweather;
+    font-size: 2rem; 
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+.lorem p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    font-weight: normal;
+    color: rgb(82, 80, 80);
+    line-height: 2rem;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-top: 40px;
+    width: 155px;
+    height: 50px;
+    background: #6C63FF;
+    border-radius: 6px;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border: none;
+
+}
+
+.principal {
+    margin: 50px auto 0px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.principal div {
+ width: 320px;
+ height: 423px;
+ margin-top: 70px;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+ margin: 30px;
+ flex: 1;
+}
+
+.principal h3 {
+    width: 170px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 235px;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 30px;
+    color: #2B2B2B;
+}
+
+.principal h4 {
+    margin-left: 25px;
+    line-height: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+}
+
+.card1 {
+    background: linear-gradient(#FF6363 50%, white 50%);
+}
+
+.card2 {
+    background: linear-gradient(#63ECFF 50%, white 50%);
+}
+
+.card3{
+    background: linear-gradient(#F363FF 50%, white 50%);
+}
+
+.card4{
+    background: linear-gradient(#63FF73 50%, white 50%);
+}
+
+.card5{
+    background: linear-gradient(#FFDD63 50%, white 50%);
+}
+
+.card6{
+    background: linear-gradient(#6663FF 50%, white 50%);
+}
+
+/* footer */
+
+.rodape {
+    width: 100%;
+    background: #D7D5FF;
+    margin-top: 145px;
+    height: 750px;
+    
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.formulario {
+    width: 470px;
+    height: 65px;
+    border-radius: 6px;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.formulario::placeholder {
+    color: rgb(134, 133, 133);
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+textarea {
+    width: 470px;
+    height: 160px;
+    border-radius: 6px;
+    border: none;
+    border: solid white;
+}
+
+textarea::placeholder {
+    font-size: 18px;
+    color: rgb(120, 120, 122);
+    padding-left: 6px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.enviar {
+    width: 470px;
+    height: 65px;
+    background: #6C63FF;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    
+}
+
+@media (max-width: 932px) {
+  .cabeçalho {
+    height: 820px;
+  }
+}
+
+@media (max-width: 480px) {
+    .form input {
+        width: 90%;
+    }
+
+    .form textarea {
+        width: 90%;
+    }
+}
+
+@media (max-width: 365px) {
+    .lorem h2{
+        margin-left: 20px;
+    }
+
+    @media (max-width: 349px) {
+        .lorem p{
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 336px) {
+            button{
+               margin-left: 7px; 
+            }
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
